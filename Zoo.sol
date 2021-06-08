@@ -62,10 +62,6 @@ contract Zoo is Ownable {
         bool isOpen;
     }
 
-    struct KeyFlag {
-        address key;
-        bool isExist;
-    }
 
     // The ZOO TOKEN!
     ZooToken public zoo;
